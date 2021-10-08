@@ -10,7 +10,6 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\InheritanceType("JOINED")
  * @ORM\DiscriminatorColumn(name="discr", type="string")
  * @ORM\DiscriminatorMap({"consommateur"="Consommateur", "producteur"="Producteur"})
- * @ORM\Table(name="user")
  */
 abstract class User
 {
